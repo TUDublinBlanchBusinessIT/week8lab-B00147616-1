@@ -12,7 +12,7 @@ class CarPolicy
         $this->yearlyPremuim = $yearlyPremuim;
     }
     
-    public function setDateOfLastClaim($date)
+    public function setDateOfLastClaim($dateOfTheLastClaim)
     
     public function getTotalYearsNoClaims()
 {
