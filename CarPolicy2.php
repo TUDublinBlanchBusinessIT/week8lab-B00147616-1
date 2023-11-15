@@ -30,9 +30,9 @@ class CarPolicy
         $yearsNoClaims = $this->getTotalYearsNoClaims();
 
         if ($yearsNoClaims >= 3 && $yearsNoClaims <= 5) {
-            return 0.10; // 10% discount
+            return 0.10; // 10% Discount
         } elseif ($yearsNoClaims > 5) {
-            return 0.15; // 15% discount
+            return 0.15; // 15% Discount
         } else {
             return 0; // No discount
         }
@@ -48,5 +48,6 @@ class CarPolicy
     public function __toString()
     {
         return $this->yearlyPremium;
+}
 }
 ?>

@@ -3,13 +3,13 @@
 class CarPolicy 
 {
     private $policyNumber = 0;
-    private $yearlyPremuim = 0;
+    private $yearlyPremium = 0;
     private $dateOfLastClaim = "";
     
-    public function __construct($policyNumber, $yearlyPremuim)
+    public function __construct($policyNumber, $yearlyPremium)
     {
         $this->policyNumber = $policyNumber;         
-        $this->yearlyPremuim = $yearlyPremuim;
+        $this->yearlyPremium = $yearlyPremuim;
     }
     
     public function setDateOfLastClaim($dateOfTheLastClaim)
